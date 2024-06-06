@@ -240,5 +240,5 @@ void loop() {
         }
         vTaskDelay(pdMS_TO_TICKS(300));
     }
-    lastButton3State = currentButton3State;
+    lastButton3State = currentButton3State; 
 }
